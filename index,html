@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Math Games Inspired</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cool Math Games Inspired</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Select a Game</h2>
+        <select id="games" onchange="redirectToGame()">
+            <option value="">--Select a Game--</option>
+            <option value="https://example.com/game1">Game 1</option>
+            <option value="https://example.com/game2">Game 2</option>
+            <option value="https://example.com/game3">Game 3</option>
+            <!-- Add more game options here -->
+        </select>
+    </main>
+    <footer>
+        <p>&copy; 2024 Inspired by Cool Math Games</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
